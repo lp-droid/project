@@ -48,15 +48,14 @@ export default {
 <style lang="stylus" scoped>
 .el-header {
   background: #ccc;
-  font: 35px / 60px '宋体';
+  font: 30px / 60px '微软雅黑';
   color: #fff;
-  text-indent: 2rem;
 
   .userInfo {
     float: right;
 
     h2 {
-      font: 25px / 25px '微软雅黑';
+      font: 20px / 25px '微软雅黑';
       display: inline-block;
     }
   }

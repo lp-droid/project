@@ -36,7 +36,6 @@
         </template>
       </el-table-column>
     </el-table>
-
   </div>
 </template>
 
@@ -51,17 +50,17 @@ export default {
 
   computed: {
     ...mapGetters({
-      cateList: "cate/getCateList"
+      cateList: "cate/getCateList",
     }),
   },
 
   mounted() {
-    this.getCateListAction();;
+    this.getCateListAction();
   },
 
   methods: {
     ...mapActions({
-      getCateListAction:'cate/getCateListAction'
+      getCateListAction: "cate/getCateListAction",
     }),
     /* 删除事件 */
     del(id) {
@@ -89,14 +88,13 @@ export default {
     edit(id) {
       this.$emit("edit", id);
     },
-   
   },
 };
 </script>
 
 <style lang="" scoped>
-img{
-  height: 150px;
-  width: auto;
+img {
+  height: auto;
+  width: 100%;
 }
 </style>

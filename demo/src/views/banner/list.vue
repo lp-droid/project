@@ -91,7 +91,7 @@ export default {
 
 <style lang="" scoped>
 img {
-  height: 150px;
-  width: auto;
+  height: auto;
+  width: 100%;
 }
 </style>
